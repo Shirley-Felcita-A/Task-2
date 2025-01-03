@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #003366; /* Dark blue for headers */
+}
+
+/* Login Section */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for form */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #00aaff; /* Blue border */
+}
+
+.login-container h2 {
+    text-align: center;
+    color: #003366; /* Dark blue for heading */
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label {
+    margin: 10px 0 5px;
+    color: #003366; /* Dark blue text */
+}
+
+.login-container input,
+.login-container select {
+    padding: 10px;
+    margin: 5px 0 15px;
+    border-radius: 4px;
+    border: 1px solid #00aaff; /* Blue border for inputs */
+}
+
+.login-container input:focus,
+.login-container select:focus {
+    border-color: #0077cc; /* Darker blue when focused */
+}
+
+.login-container button {
+    padding: 10px;
+    background-color: #0066cc; /* Blue background for button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #004d99; /* Darker blue on hover */
+}
+
+/* Employee Section */
+.employee-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #00aaff; /* Blue border */
+}
+
+.employee-container h1 {
+    color: #003366; /* Dark blue for heading */
+}
+
+.employee-container button {
+    padding: 10px;
+    background-color: #0066cc; /* Blue background for button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.employee-container button:hover {
+    background-color: #004d99; /* Darker blue on hover */
+}
+
+.employee-form {
+    margin-bottom: 20px;
+}
+
+.employee-form input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid #00aaff; /* Blue border for inputs */
+    width: calc(100% - 20px);
+}
+
+.employee-form button {
+    padding: 10px;
+    background-color: #0066cc; /* Blue background for button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.employee-form button:hover {
+    background-color: #004d99; /* Darker blue on hover */
+}
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.employee-table th, .employee-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.employee-table th {
+    background-color: #e6f0ff; /* Light blue for table header */
+    color: #003366; /* Dark blue text */
+}
+
+.employee-table tr:hover {
+    background-color: #f1faff; /* Lighter blue on hover */
+}
+
+.employee-table td button {
+    padding: 5px 10px;
+    background-color: #f44336; /* Red button for delete */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.employee-table td button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
